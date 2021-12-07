@@ -80,7 +80,7 @@ open class ImagePickerController: UIViewController {
   var numberOfCells: Int?
   var statusBarHidden = true
 
-  fileprivate var isTakingPicture = false
+  open var isTakingPicture = false
   open var doneButtonTitle: String? {
     didSet {
       if let doneButtonTitle = doneButtonTitle {
